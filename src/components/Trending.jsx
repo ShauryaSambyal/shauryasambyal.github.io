@@ -42,7 +42,7 @@ const Trending = () => {
 
   return (
     <div className="w-screen h-screen bg-transparent px-18 py-0 border-t-1 border-t-amber-50">
-      <h1 className='text-center text-4xl text-white drop-shadow-lg font-bold mt-3 underline'>Trending Movies Right Now</h1>
+      <h1 className='text-center text-4xl text-emerald-400 drop-shadow-lg font-bold mt-3 underline'>Trending Movies Right Now</h1>
       {trend.map((elem, idx) => (
         <div key={elem.id} className="w-60 h-80 bg-amber-100 rounded-3xl inline-block align-top mx-5 my-10 px-15 py-10">
           <img 

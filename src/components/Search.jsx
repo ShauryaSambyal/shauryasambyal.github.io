@@ -26,7 +26,7 @@ const Search = () => {
                 e.preventDefault(),
                 movieData();
                 setIsOpen(true)
-              }} className='bg-amber-500 h-13 px-7 py-3 rounded text-xl text-white font-bold cursor-pointer hover:bg-amber-700 ease duration-300'>Search</button>
+              }} className='bg-emerald-500 h-13 px-7 py-3 rounded-xl text-xl text-white font-bold cursor-pointer hover:bg-emerald-700 ease duration-300'>Search</button>
           </form>
       </div>
       <div className={` mt-10 text-center transition-all duration-300 ease-out ${isOpen ? 'scale-100 opacity-100 translate-y-0 mt-2' : 'scale-95 opacity-0 translate-y-2 pointer-events-none'}`}>
